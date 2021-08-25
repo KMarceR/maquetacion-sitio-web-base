@@ -1,0 +1,47 @@
+*{
+    font-family: "Century Gothic";
+    margin: 0 auto;
+}
+header{
+    width:100%;
+}
+/*solo sirve para cuando usas background-images*/
+.img-cabecera{
+	height: 400px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+	background-position: center;
+}
+.body-color{
+    background: rgb(19, 84, 226);
+    background: linear-gradient(162deg, rgba(0,48,149,1) 0%, rgba(0,79,173,1) 48%, rgba(0,142,255,1) 100%);
+    /* https://cssgradient.io/ */
+}
+
+/*barra de navegacion*/
+a:hover {
+    background-color: rgb(13, 100, 231);
+    color: white;
+}
+
+/*contenido*/
+.contenido-general{
+    background-color: whitesmoke;
+    
+}
+.img-mapa{
+    position: center;
+    border-radius: 20px;
+    /*max-width: 400px;
+    min-height: 200px;*/
+}
+.img-card{
+    height: 250px;
+    width: 250px;
+}
+
+/*footer*/
+.myfooter{
+    margin: 0 auto;
+}
